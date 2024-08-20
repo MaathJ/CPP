@@ -24,6 +24,8 @@ void solve(){
         }
         if(next % 2 == 0) return false;
         return prev < next;
+
+
             
 
     });
@@ -45,3 +47,8 @@ int main()
     }
     return 0;
 }
+
+
+
+
+

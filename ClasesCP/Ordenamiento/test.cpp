@@ -13,7 +13,7 @@ using namespace std;
 const long long MOD = 1e8 + 7;
 
 void solve() {
-    cout << "Hello World!"<< endl;
+    cout << "Hello World!";
 }
 
 int main() {

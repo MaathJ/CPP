@@ -7,10 +7,10 @@ void solve1(){
     int n; cin>>n;
     vector<int> a(n);
 
-    for (size_t i = 0; i < n; i++) cin>>a[i];
+    for (int i = 0; i < n; i++) cin>>a[i];
 
     int maxSum = -100000;
-    for (int L = 0; L < n; L++) {
+    for (int L = 1; L < n; L++) {
         for (int R = L; R < n; R++) {
               int suma = 0;
               for (int i = L; i <= R; i++){
@@ -28,7 +28,7 @@ void solve2(){
     int n; cin>>n;
     vector<int> a(n);
 
-    for (size_t i = 0; i < n; i++) cin>>a[i];
+    for (int i = 0; i < n; i++) cin>>a[i];
 
     int maxSum = -100000;
     for (int L = 0; L < n; L++) {
@@ -68,7 +68,7 @@ int main()
     //cin>>t;
 
     while(t--){
-        solve3();
+     solve1();
     }
     return 0;
 }
