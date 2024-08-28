@@ -15,15 +15,13 @@ void solve(){
     //Pares ascendente, impares descendente
 
 
-    //PRIMERA CONDICIÓN
-
     sort(all(a), [&](int prev, int next){
         if(prev % 2 == 0) {
             if(next % 2 == 0) return (prev < next);
             return true;
         }
         if(next % 2 == 0) return false;
-        return prev < next;
+        return prev > next;
 
 
             
