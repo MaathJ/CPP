@@ -7,13 +7,15 @@ typedef long long ll;
 #define snd second
 #define forr(i,a,b) for(int i=(a); i<(b); i++)
 
+
 const int MAXN=100100;
 
 using namespace std;
 const long long MOD = 1e8 + 7;
 
 void solve() {
-    cout << "Hello World!"<< endl;
+    
+
 }
 
 int main() {
